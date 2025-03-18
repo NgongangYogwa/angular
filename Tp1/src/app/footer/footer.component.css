@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 880px;
+    margin-top: -30px;
+}
+a{
+    text-decoration: none;
+}
+.col {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding:  50px;
+}
+* HEADER * 
+footer nav {
+  float: right;
+  margin-top: 50px;
+}
+
+footer nav ul li a{
+    color: white;
+    right: 20px;
+    margin-right: 20px;
+}
+.wrapper{
+    padding-bottom: 30px;
+    border-bottom: 1px #f0f3fa solid;
+}
+.wrapper1{
+    margin-top: 10px;
+}
+.icon{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.face{
+    width: 30px;
+    margin-left: 800px;
+    margin-top: -30px;
+}
+.twit{
+    width: 30px;
+    margin-left: 870px;
+    margin-top: -40px;
+}
+.insta{
+    width: 30px;
+    margin-left: 942px;
+    margin-top: -40px;
+}
+.lind{
+    width: 30px;
+    margin-left: 1010px;
+    margin-top: -40px;
+}

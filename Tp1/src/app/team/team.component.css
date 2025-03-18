@@ -1,0 +1,65 @@
+.Potenti{
+  background-color: #fafcff;
+  padding: 100px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    width: 60px;
+    border-color: blue;
+    border-radius: 2rem;
+    margin-left: 500px;
+}
+.but h2{
+  color:  #061e5c;
+  text-align: center;
+}
+.but p{
+    opacity: 0.7;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.ka{
+  padding: 0;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-top: 80px;
+  border:  1px solid #a4a5a764;
+  width: 150px;
+  border-radius: 5px;
+   
+}
+.ka p{
+  text-align: center;
+}
+.kala{
+  margin-left: 300px;
+  margin-top: -285px;
+  border:  1px solid #a4a5a764;
+  width: 150px;
+  border-radius: 3px;
+}
+.kala p{
+  text-align: center;
+}
+.chill{
+  margin-left: 500px;
+  margin-top: -285px;
+  border:  1px solid #a4a5a764;
+  width: 150px;
+  border-radius: 3px;
+}
+.chill p{
+  text-align: center;
+}
+.class{
+  margin-left: 700px;
+  margin-top: -285px;
+  border:  1px solid #a4a5a764;
+  width: 150px;
+  border-radius: 3px;
+}
+.class p{
+  text-align: center;
+}

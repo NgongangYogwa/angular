@@ -1,0 +1,164 @@
+/* Section globale des témoignages */
+.testimonials-section {
+    background-color: #f7f9fc;
+    padding: 80px 10%;
+    box-sizing: border-box;
+}
+
+/* Container principal des témoignages */
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Titre et sous-titre des témoignages */
+.testimonials-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonials-subtitle {
+    font-size: 1.25rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.testimonials-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Disposition des cartes de témoignages */
+.testimonials-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Carte de témoignage */
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.33% - 20px); /* 3 cartes par ligne */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+   /* Espacement entre les lignes de cartes */
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Header de la carte de témoignage */
+.testimonial-header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.testimonial-photo img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-info {
+    flex: 1;
+}
+
+.testimonial-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+  
+}
+
+.testimonial-position {
+    font-size: 1rem;
+    opacity: 1;
+    
+}
+
+.testimonial-rating .star {
+    font-size: 18px;
+    color: #FFD700; /* Jaune pour les étoiles */
+    margin-right: 5px;
+}
+
+.testimonial-rating .star:hover {
+    color: #FFCC00; /* Légère modification de couleur quand survolée */
+}
+
+
+/* Pied de la carte de témoignage */
+.testimonial-footer {
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Navigation des témoignages */
+.testimonials-navigation {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonials-navigation span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+   
+    transition: background-color 0.3s ease;
+}
+/*
+.testimonials-navigation span:hover {
+    background-color: #007bff;
+}
+
+.testimonials-navigation span.active {
+    background-color: #007bff;
+}
+*/
+/* Réactivité pour les petits écrans */
+@media (max-width: 1024px) {
+    .testimonial-card {
+        width: calc(50% - 20px); /* 2 cartes par ligne pour les tablettes */
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        width: 100%; /* 1 carte par ligne pour les petits écrans */
+    }
+
+    .testimonials-title {
+        font-size: 2rem;
+    }
+
+    .testimonials-subtitle {
+        font-size: 1rem;
+    }
+
+    .testimonials-description {
+        font-size: 0.9rem;
+    }
+}

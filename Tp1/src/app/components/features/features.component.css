@@ -1,0 +1,79 @@
+
+.button3{
+    background-color: #061e5c;
+    width: 80px;
+    color: white;
+    margin-left: 600px;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.Feature{
+    width: 100%;
+    background-color: #f0f3fa;
+    margin-top: 181px;
+    height: 600px;
+}
+.Feature h2 {
+    color: #061e5c;
+    text-align: center;
+   margin-left: 70px;
+}
+.Feat{
+    color: #adadad;
+    text-align: center;
+    margin-left: 100px;
+}
+.Simple h1{
+    color: #061e5c;;
+}
+.Simple p{
+    opacity: 0.7;
+}
+.Simple{
+    background-color: white;
+    margin-top: -280px;
+    margin-left: 250px;
+    text-align: center;
+    width: 270px;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.Simple img{
+    margin-top: 20px;
+}
+.Super p{
+    opacity: 1;
+}
+.Super h1{
+    color: #061e5c;
+}
+.Super{
+    background-color: white;
+    margin-top: -215px;
+    margin-left: 550px;
+    width: 270px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+.Super img{
+    margin-top: 20px;
+}
+.Bug h1{
+    color: #061e5c;
+}
+.Bug p{
+    opacity: 1;
+}
+.Bug{
+    background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    width: 270px;
+    border-radius: 6px;
+    margin-left: 850px;
+    margin-top: -212px;
+}
+.Bug img{
+    margin-top: 20px;
+}

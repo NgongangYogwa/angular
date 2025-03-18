@@ -1,0 +1,37 @@
+.lo{
+    background-color: #f3f3f3;
+    margin-top: -20px;
+    padding: 50px;
+}
+.lo p{
+    font-weight: 15px;
+    font-size: 30px;
+}
+.Ready{
+    color: #061e5c;
+}
+.Start{
+    color: blue;
+}
+.title{
+    margin-top: -100px;
+    margin-left: 800px;
+    padding: 15px;
+}
+.button1{
+    width: 130px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button2{
+    width: 100px;
+    color: white;
+   background-color: #061e5c;
+   margin-left: 25px;
+   border-color: #061f5c;
+   border-radius: 5px;
+   padding: 5px;
+}

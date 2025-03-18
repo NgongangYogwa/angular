@@ -1,0 +1,114 @@
+.many {
+    padding: 100px 10%;
+    background-color: #f0f3fa;
+    text-align: center;
+}
+
+.button6 {
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #061e5c;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button6:hover {
+    background-color: #0056b3;
+}
+
+.the h2 {
+    color: #061e5c;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.jjk {
+    color: #b8babf;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 270px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #061e5c;
+    margin-bottom: 15px;
+}
+
+.card-description {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.card-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+    padding-top: 10px;  /* Ajoute un peu de padding en haut pour l'espacement */
+    border-top: 3px solid #ddd;  /* Bordure grise en haut du prix */
+}
+
+.card-features li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;  /* Aligne verticalement l'icône avec le texte */
+}
+
+.card-features li::before {
+    content: "✔";  /* Ajoute une coche avant chaque élément de liste */
+    color: #28a745;  /* Couleur verte pour la coche */
+    margin-right: 10px;  /* Espacement entre l'icône et le texte */
+    font-size: 1.2rem;  /* Taille de l'icône */
+}
+.buy-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .pricing-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

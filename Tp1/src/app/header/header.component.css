@@ -1,0 +1,74 @@
+ * GENERAL * 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+a{
+    text-decoration: none;
+}
+.wrapper {
+    background-color: #1f1f83;
+   /* width: 100px; */ 
+    margin: 0 auto;
+    padding: 0 10px;
+    /*height: 100%; */
+}
+* HEADER * 
+header nav {
+  float: right;
+  margin-top: 50px;
+}
+header nav ul li:first-child{
+    color: blue;
+}
+header nav ul li a{
+    color: white;
+     right: 20px;
+     margin-right: 20px;
+}
+.img{
+    margin-left: 600px;
+} 
+#landry{
+    margin-left: -550px;
+    margin-top: 20px;
+}
+.button1{
+    padding: 15px;
+    width: 120px;
+    margin-left: 115%;
+    font-weight: 20px;
+    transform: translateY(20px);
+    border-radius: 10px;
+    border-color: white;
+}
+.ng input{
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button2{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    width: 150px;
+    margin-left: 10px;
+    border-color: blue;
+    border-radius: 5px;
+}
+.yog{
+    margin-top: -350px;
+    margin-left: 30px;
+    color: white;
+
+}

@@ -1,0 +1,67 @@
+.color{
+    height: 100%;
+    background-color: #f0f3fa;
+    margin-top: 50px;
+}
+.schit{
+    padding: 100px;
+}
+.via{
+    position: absolute;
+    transform: translateY(-150px);
+    margin-left: 750px;
+    margin-top: -160px;
+}
+.schit h2 {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+.nb{
+    margin-left: 180px;
+}
+.button{
+    width: 150px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+    margin-left: 180px;
+}
+.schit img{
+    transform: translateY(-20px);
+    margin-left: 180px;
+}
+.ld{
+    padding: 80px;
+}
+.ld h2{
+    font-size: 20px;
+   margin-left: 700px;
+}
+.ng{
+    margin-left: 700px;
+}
+.ld img{
+    margin-left: 700px;
+}
+.button5{
+    margin-left: 700px;
+    width: 150px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 5px;
+}
+.Amel{
+    position: absolute;
+    margin-left: 230px;
+    margin-top: -280px;
+}
+/*.Amel{
+    margin-top: -280px;
+    margin-left: 180px;
+}
+*/
